@@ -20,7 +20,7 @@ No support is provided for this release, and it is released “AS-IS” without 
 For Ubuntu 16.04 LTS (though we know it works on OSX and Arch Linux as well, these instructions don't cover those)
 
     #bitcoin deps
-    sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+    sudo apt-get install git build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
     sudo apt-get install libboost-all-dev
     sudo apt-get install software-properties-common
     sudo add-apt-repository ppa:bitcoin/bitcoin
